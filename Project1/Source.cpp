@@ -72,7 +72,8 @@ void main()
 {
 	BT a[MAX];
 	int n;
-	int chon = 1, con=0;
+	int chon = 1;
+	bool exit = false;
 	do
 	{
 		printf(" 0: Ket thuc chuong trinh\n");
@@ -83,10 +84,11 @@ void main()
 		printf(" 5: tinh diem\n");
 		printf(" 6: nhap vao 1 bt\n");
 		printf(" vui long chon chuc nang:"); scanf_s("%d", &chon);
-		switch (con)
+		switch (chon)
 		{
 		case 0:
-			return;
+			exit = true;
+			break;
 		case 1: nhapfile(a, n);
 			break;
 		case 2:loadfile(a, n);
@@ -100,8 +102,9 @@ void main()
 		case 6:nhapvao1bt(a, n);
 			break;
 		default:
+			exit = true;
 			break;
 		}
-	} while (chon != 0);
+	} while (!exit);
 	_getch();
 }
