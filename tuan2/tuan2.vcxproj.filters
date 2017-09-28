@@ -18,5 +18,13 @@
     <ClCompile Include="baitaptuan2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tuan2_fix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="baitaptuan.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

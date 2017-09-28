@@ -148,6 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="baitaptuan2.cpp" />
+    <ClCompile Include="tuan2_fix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="baitaptuan.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,6 +36,7 @@ void xuatfile(FILE *fout, BTVN list[], int n)
 }
 void main()
 {
+
 	char dirIn[100];
 	char dirOut[100];
 	printf("Nhap duong dan file xuat: \n");
