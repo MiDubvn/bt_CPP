@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream>
 #include<conio.h>
 #include <string.h>
 #define MAX 100
@@ -11,7 +11,6 @@ struct BT
 
 void nhapfile(BT a[], int &n)
 {
-	n = 0;
 	FILE*f;
 	fopen_s(&f, "baitaptuan.txt", "w+");
 	for (int i = 0; i < n; i++) {
@@ -42,12 +41,13 @@ void loadfile(BT a[], int &n)
 		printf("ko load dc file");
 		return;
 	}
+	else 
 	while (!feof(f))
 	{
 		if (fscanf_s(f, "%d", &a[n].maBT) && fscanf_s(f, "%s", a[n].tenBT) && fgets(a[n].trangthai, 10, f))
 			n++;
 	}
-	fclose(f);
+	fclose(f);                              
 }void xuatbt(BT z)
 {
 	printf("%d %s %s\n", z.maBT, z.tenBT, z.trangthai);
