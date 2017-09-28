@@ -11,7 +11,8 @@ typedef struct BT
 void loadfile(BT a[], int &n)
 {
 	n = 0;
-	FILE*f = fopen_s("baitaptuan.txt", "r");
+	FILE*f;
+	fopen_s(&f,"baitaptuan.txt", "rt");
 	if (f == NULL)
 	{
 		printf("ko load dc file");
