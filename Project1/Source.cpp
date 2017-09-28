@@ -21,9 +21,11 @@ void nhapvao1bt(BT a[], int &n)
 	printf(" maBT");
 	scanf_s("%d", &a[n].maBT);
 	printf(" tenBT");
+	fseek(stdin, 0, SEEK_END);
 	gets_s(a[n].tenBT);
 	printf(" trangthai:");
 	gets_s(a[n].trangthai);
+	n++;
 
 }
 void loadfile(BT a[], int &n)
@@ -71,7 +73,7 @@ int tinhdiem(BT a[], int n)
 void main()
 {
 	BT a[MAX];
-	int n;
+	int n = 0;
 	int chon = 1;
 	bool exit = false;
 	do
