@@ -11,7 +11,6 @@ struct BT
 
 void nhapfile(BT a[], int &n)
 {
-	n = 0;
 	FILE*f;
 	fopen_s(&f, "baitaptuan.txt", "w+");
 	for (int i = 0; i < n; i++) {
