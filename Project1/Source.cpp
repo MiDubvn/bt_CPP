@@ -2,7 +2,7 @@
 #include<conio.h>
 #include <string.h>
 #define MAX 100
-typedef struct BT
+struct BT
 {
 	int maBT;
 	char tenBT[10];
