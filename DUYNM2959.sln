@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DUYNM2959-1", "DUYNM2959\DUYNM2959.vcxproj", "{CBAF7CC0-BB7E-404E-BDD4-243DBD65BDAD}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{CF7A1103-6008-41AC-B5CE-5DA4C147093E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tuan3", "tuan3\tuan3.vcxproj", "{B9C3CDC1-FE43-4B4E-82A8-B0B187F08C5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointerExample", "PointerExample\PointerExample.vcxproj", "{B34436B5-CF8F-41E5-9257-926215196FC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{B9C3CDC1-FE43-4B4E-82A8-B0B187F08C5D}.Release|x64.Build.0 = Release|x64
 		{B9C3CDC1-FE43-4B4E-82A8-B0B187F08C5D}.Release|x86.ActiveCfg = Release|Win32
 		{B9C3CDC1-FE43-4B4E-82A8-B0B187F08C5D}.Release|x86.Build.0 = Release|Win32
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Debug|x64.ActiveCfg = Debug|x64
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Debug|x64.Build.0 = Debug|x64
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Debug|x86.Build.0 = Debug|Win32
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Release|x64.ActiveCfg = Release|x64
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Release|x64.Build.0 = Release|x64
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Release|x86.ActiveCfg = Release|Win32
+		{B34436B5-CF8F-41E5-9257-926215196FC1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
