@@ -13,7 +13,11 @@ void nhapfile(BT a[], int &n)
 {
 	n = 0;
 	FILE*f;
-	fopen_s(&f, "baitaptuan.txt", "wt");
+	fopen_s(&f, "baitaptuan.txt", "w+");
+	for (int i = 0; i < n; i++) {
+		fprintf(f,"%d\t%s\t%s\n", a[i].maBT, a[i].tenBT, a[i].trangthai);
+	}
+	printf("Da save file");
 	fclose(f);
 }
 void nhapvao1bt(BT a[], int &n)
