@@ -131,10 +131,44 @@ void bai2()
 	}
 		
 }
+void bai3()
+{
+	char **arr = NULL;
+	int i = 0;
+	strsplit(arr, i);
+	for (int j = 0; j < i; j++)
+		if (arr[j][0]<'a' || arr[j][0]>'z')
+			arr[j][0] += 32;
+	cout << *(arr + (i-1)) << ".";
+	for (int j = 0; j < i - 1; j++)
+	{
+		cout << *(arr + j);
+	}
+	cout << "@hoasen.edu.vn" << endl;
+}
+void bai4()
+{
+	int q, w, e, r, t, y;
+	printf("\n vui long nhap 1so roi an enter cho den khi het mssv\n");
+	printf(" nhap mssv:");
+	scanf_s("%d%d%d%d%d%d", &q, &w, &e, &r, &t, &y);
+	char **arr = NULL;
+	int i = 0;
+	strsplit(arr, i);
+	for (int j = 0; j < i; j++)
+		if (arr[j][0]<'a' || arr[j][0]>'z')
+			arr[j][0] += 32;
+	cout << *(arr + (i - 1)) << ".";
+	for (int j = 0; j < i - 1; j++)
+	{
+		cout << *(arr + j);
+	}
+	printf("%d%d%d%d@sinhvien.hoasen.edu.vn", e, r, t, y);
+}
 void main()
 {
 	char c[40];
 	printf(" nhap chuoi:");
-	bai2();
+	bai4();
 	_getch();
 }
