@@ -15,14 +15,14 @@ void strsplit(char **&arr, int &n)
 	do
 	{
 		*(arr + n) = new char[40];
-		cin >> *(arr +n);
+		cin >> *(arr + n);
 		n++;
 	} while (cin.get() != '\n');
 }
 
 void A()
 {
-	
+
 	char **arr = NULL;
 	int i = 0;
 	strsplit(arr, i);
@@ -32,16 +32,16 @@ void A()
 		cout << *(arr + j) << " ";
 	}
 	cout << *(arr + (i - 1)) << endl;
-	}
+}
 
 void B()
 {
 	char **arr = NULL;
 	int i = 0;
 	strsplit(arr, i);
-	cout << *(arr +(i-1)) << endl;
-	
-for (int j = 0; j < i - 1; j++)
+	cout << *(arr + (i - 1)) << endl;
+
+	for (int j = 0; j < i - 1; j++)
 	{
 		cout << *(arr + j) << " ";
 	}
@@ -63,18 +63,18 @@ void D()
 	char **arr = NULL;
 	int i = 0;
 	strsplit(arr, i);
-	for (int j = i-1; j > 0; j--)
+	for (int j = i - 1; j > 0; j--)
 	{
-		cout << *(arr + j)<<" " ;
+		cout << *(arr + j) << " ";
 	}
-	cout << *(arr + 0) ;
+	cout << *(arr + 0);
 }
 void E()
 {
 	char **arr = NULL;
 	int i = 0;
 	strsplit(arr, i);
-	cout << *(arr + i-1);
+	cout << *(arr + i - 1);
 }
 void F()
 {
@@ -84,13 +84,13 @@ void F()
 	for (int j = 0; j < i; j++)
 		if (arr[j][0]<'A' || arr[j][0]>'Z')
 			arr[j][0] -= 32;
-	cout << *(arr + 0)  << " ";
+	cout << *(arr + 0) << " ";
 	for (int j = 1; j < i - 1; j++)
 	{
 		cout << *(arr + j) << " ";
 	}
 	cout << *(arr + (i - 1)) << endl;
-	
+
 }
 void bai1()
 {
@@ -129,7 +129,7 @@ void bai2()
 	{
 		cout << list[i].kytu << ": " << list[i].dem << endl;
 	}
-		
+
 }
 void bai3()
 {
@@ -139,7 +139,7 @@ void bai3()
 	for (int j = 0; j < i; j++)
 		if (arr[j][0]<'a' || arr[j][0]>'z')
 			arr[j][0] += 32;
-	cout << *(arr + (i-1)) << ".";
+	cout << *(arr + (i - 1)) << ".";
 	for (int j = 0; j < i - 1; j++)
 	{
 		cout << *(arr + j);
@@ -169,6 +169,6 @@ void main()
 {
 	char c[40];
 	printf(" nhap chuoi:");
-	bai4();
+	F();
 	_getch();
 }
