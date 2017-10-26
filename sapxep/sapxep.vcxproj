@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{38D2E524-2922-4A1C-9D8D-9813D31FB7B8}</ProjectGuid>
+    <ProjectGuid>{2560CDB6-7DE0-48C8-BA84-268D6421314B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>tuan2</RootNamespace>
+    <RootNamespace>sapxep</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,12 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="baitaptuan2.cpp" />
-    <ClCompile Include="tuan2_binary.cpp" />
-    <ClCompile Include="tuan2_fix.cpp" />
+    <ClInclude Include="InterchangeSort.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="baitaptuan.txt" />
+    <ClCompile Include="InterchangeSort.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

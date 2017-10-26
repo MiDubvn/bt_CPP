@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="baitaptuan2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="tuan2_fix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="tuan2_binary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="InterchangeSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="baitaptuan.txt">
+    <ClCompile Include="InterchangeSort.cpp">
       <Filter>Source Files</Filter>
-    </Text>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

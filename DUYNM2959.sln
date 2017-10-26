@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DUYNM2959_tuan4", "DUYNM295
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DUYNM2959_tuan5", "DUYNM2959_tuan5\DUYNM2959_tuan5.vcxproj", "{E1F750DF-06CC-4790-BBFD-74F5D0778257}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sapxep", "sapxep\sapxep.vcxproj", "{2560CDB6-7DE0-48C8-BA84-268D6421314B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{E1F750DF-06CC-4790-BBFD-74F5D0778257}.Release|x64.Build.0 = Release|x64
 		{E1F750DF-06CC-4790-BBFD-74F5D0778257}.Release|x86.ActiveCfg = Release|Win32
 		{E1F750DF-06CC-4790-BBFD-74F5D0778257}.Release|x86.Build.0 = Release|Win32
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Debug|x64.ActiveCfg = Debug|x64
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Debug|x64.Build.0 = Debug|x64
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Debug|x86.ActiveCfg = Debug|Win32
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Debug|x86.Build.0 = Debug|Win32
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Release|x64.ActiveCfg = Release|x64
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Release|x64.Build.0 = Release|x64
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Release|x86.ActiveCfg = Release|Win32
+		{2560CDB6-7DE0-48C8-BA84-268D6421314B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

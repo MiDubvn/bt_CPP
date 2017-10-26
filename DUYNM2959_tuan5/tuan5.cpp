@@ -1,28 +1,17 @@
 #include < iostream>
 #include <conio.h>
 using namespace std;
-//double T(int n)
-//{
-//	if (n == 1) return 1;
-//	return T(n - 1) + n / (pow((n), (n)));
-//}
-//long A(int n)
-//{
-//
-//	if (n == 1) return 1;
-//	return A(n - 1) + (n - 1)*n;
-//}
 float bt1(int n)
 {
 	if (n == 1) return 1;
-	return bt1 (n - 1) + (1.0 / n);
+	return bt1(n - 1) + (1.0 / n);
 }
 float bt2(int n)
 {
 	if (n == 1) return 1;
 	return bt2(n - 1) + (1.0 / ((n - 1) + n));
 }
-long bt3(int n,int x)
+long bt3(int n, int x)
 {
 	if (n == 1) return x;
 	return bt3(n - 1, x)*x;
@@ -50,8 +39,8 @@ int A(int n)
 int C(float o)
 {
 	int m = o;
-	if (m-o==0) return 0;
-	return C(o * 10)+1;
+	if (m - o == 0) return 0;
+	return C(o * 10) + 1;
 }
 int D(int n)
 {
@@ -76,9 +65,9 @@ bool F(int n)
 }
 void main()
 {
-	int n,x;
+	int n, x;
 	float o;
-	cout << "nhap n:"<< endl;
+	cout << "nhap n:" << endl;
 	cin >> n;
 	cout << "nhap x:" << endl;
 	cin >> x;
