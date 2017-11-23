@@ -6,7 +6,7 @@ typedef struct sinhvien
 {
 	int MSSV;
 	char ten[20];
-	int khoa;
+	char khoa[20];
 	char nghanh[20];
 };
 typedef struct list
@@ -18,16 +18,16 @@ void nhap1sv(sinhvien &sv)
 {
 	printf("nhap MSSV:");
 	scanf_s("%d", &sv.MSSV);
-	fflush(stdin);
+	fseek(stdin, 0, SEEK_END);
 	printf("nhap ten:"); 
 	gets_s(sv.ten);
-	fflush(stdin);
+	fseek(stdin, 0, SEEK_END);
 	printf("nhap khoa:");
 	scanf_s("%d", &sv.khoa);
-	fflush(stdin);
+	fseek(stdin, 0, SEEK_END);
 	printf("nhap nganh:");
 	gets_s(sv.nghanh);
-	fflush(stdin);
+	
 
 }
 void nhapmangsv(sinhvien &sv, list &l)
