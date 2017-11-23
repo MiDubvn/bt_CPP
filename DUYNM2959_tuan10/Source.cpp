@@ -13,10 +13,10 @@ void nhap1sv(sinhvien &sv)
 {
 	printf("nhap MSSV:");
 		scanf_s("%d", &sv.MSSV);
-		fflush(stdin);
+		fseek(stdin, 0, SEEK_END);
 		printf("nhap ten:");
 		gets_s(sv.ten);
-		fflush(stdin);
+		
 }
 void xuat1sv(sinhvien sv)
 {
